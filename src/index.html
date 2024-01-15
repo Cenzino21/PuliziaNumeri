@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeri Puliti</title>
+    <script src="../dist/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Benvenuto</h1>
+        <p>In questa pagina ci occupiamo di verficare il tuo numero di telefono e di pulirlo</p>
+        <p>In che senso pulirlo?</p>
+        <p>Pulirlo inteso che le cifre extra verranno rimosse e ti restituiamo il numero 
+            composto in modo regolare (10 cifre). Funziona solo se le cifre sono più o uguali a 10.
+        </p>
+    </header>
+    <div class="containerInsertNumber">
+        <p>Inserisci il tuo numero</p>
+        <form>
+            <label for="enterNumberToControl">Inserimento</label>
+            <input type="text" id="enterNumberToControl" name="enterNumberToControl">
+            <button type="button" onclick="controlTelephoneNumber()">Verifica</button>
+        </form>
+    </div>
+</body>
+</html>
