@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numeri Puliti</title>
+    <link rel="stylesheet" href="style.css">
     <script src="../dist/app.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Benvenuto</h1>
+    <header class="headerContainer">
+        <h1 id="welcomeText">Benvenuto</h1>
         <p>In questa pagina ci occupiamo di verficare il tuo numero di telefono e di pulirlo</p>
         <p>In che senso pulirlo?</p>
         <p>Pulirlo inteso che le cifre extra verranno rimosse e ti restituiamo il numero 
@@ -21,7 +22,7 @@
             <label for="enterNumberToControl">Inserimento</label>
             <input type="text" id="enterNumberToControl" name="enterNumberToControl">
             <button type="button" onclick="controlTelephoneNumber()">Verifica</button>
-        </form>
+        </form> <br/>
     </div>
 </body>
 </html>

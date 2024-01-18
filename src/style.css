@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.headerContainer {
+    font-family: cursive;
+}
+
+#welcomeText {
+    color: red;
+}
+
+.containerInsertNumber {
+    border: 2px dotted black;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: red;
+    background-color: grey;
+}
